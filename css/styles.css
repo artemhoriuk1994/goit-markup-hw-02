@@ -35,12 +35,13 @@ body {
   color: var(--link-color);
 }
 
-.hero {
+.hero-title {
   background-color: #2f303a;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 
 .hero-btn {
@@ -55,6 +56,7 @@ body {
   color: var(--secondary-color);
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .title {
