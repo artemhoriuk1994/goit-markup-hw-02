@@ -35,8 +35,11 @@ body {
   color: var(--link-color);
 }
 
-.hero-title {
+.hero {
   background-color: #2f303a;
+}
+
+.hero-title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
