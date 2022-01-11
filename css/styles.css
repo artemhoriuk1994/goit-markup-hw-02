@@ -1,0 +1,107 @@
+:root {
+  --main-color: #757575;
+  --secondary-color: #212121;
+  --link-color: #2196f3;
+}
+/* index*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--main-color);
+}
+
+.list-item > .link {
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--secondary-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--link-color);
+}
+
+.tel-link,
+.mail-link {
+  font-weight: 500;
+  color: var(--main-color);
+  line-height: 1.14;
+}
+
+.tel-link:hover,
+.tel-link:focus,
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--link-color);
+}
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.hero-btn {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: var(--link-color);
+  cursor: pointer;
+}
+
+.features-title {
+  color: var(--secondary-color);
+  font-weight: 700;
+  line-height: 1.14;
+}
+
+.title {
+  color: var(--secondary-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.user-subtitle {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.user-item > .text {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address > .mail-link,
+.tel-link {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.address-text {
+  color: #ffffff;
+  font-style: normal;
+}
+
+/*Portfolio*/
+
+.item-title {
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.item-text {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.8;
+}
