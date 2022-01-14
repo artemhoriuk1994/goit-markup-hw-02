@@ -40,8 +40,16 @@ a {
 .site-logo {
   font-size: 26px;
   line-height: calc(31 / 26);
-
+  font-weight: 700;
   color: var(--logo-color);
+}
+
+.header-logo {
+  color: #000000;
+}
+
+.footer-logo {
+  color: #ffffff;
 }
 
 .link {
@@ -82,6 +90,7 @@ a {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .hero-btn {
